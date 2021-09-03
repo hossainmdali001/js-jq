@@ -1,0 +1,68 @@
+/* All common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+}
+/* all common css end  */
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+ /* jqery start  */
+.main{
+    margin-top: 50px;
+    width: 1250px;
+    height: 400px;
+    background: url(../images/ayan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hope{
+    width: 200px;
+    height: 200px;
+    background: rgb(144, 5, 224);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+} 
+.hope_two{
+    width: 200px;
+    height: 200px;
+    background: rgb(236, 146, 10);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+button{
+    padding: 10px;
+    background: turquoise;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+
+}
+.hope{
+    margin: 0 auto;
+    margin-top: 60px;
+}
